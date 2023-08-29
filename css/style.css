@@ -31,7 +31,7 @@ body {
 footer {
     background-color: #191919 !important;
     color: #f5f5f5 !important;
-    height: 50px;
+    height: auto;
     padding-top: 15px;
 }
 
@@ -122,4 +122,18 @@ footer {
     background-color: #beb5ea !important;
     color: #191919 !important;
     text-decoration: underline !important;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
 }
