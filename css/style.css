@@ -63,7 +63,7 @@ footer {
 }
 
 .scrollable-section {
-    min-height: 250px; /* Adjust the desired minimum height */
+    min-height: 300px; /* Adjust the desired minimum height */
     overflow-y: auto;
     border: 1px solid #ccc;
 }
@@ -88,10 +88,19 @@ footer {
     margin-top: 10px;
 }
 
+.scrollable-section {
+    position: relative; /* Make the section container relatively positioned */
+}
+
 .section-navigation {
+    position: absolute; /* Position the dots absolutely within the section container */
+    bottom: 10px; /* Adjust this value as needed to control the spacing from the bottom */
+    left: 50%; /* Center the dots horizontally */
+    transform: translateX(-50%); /* Adjust horizontal positioning */
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between dots */
 }
 
 .section-dot {
@@ -99,7 +108,6 @@ footer {
     height: 15px;
     background-color: #eeb699;
     border-radius: 50%;
-    margin: 0 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -112,6 +120,8 @@ footer {
 #section1 {
     background-color: rgba(73, 69, 145, 0.75) !important;
     color: #f5f5f5;
+    border: #eeb699 2px solid;
+    border-radius: 25px !important;
 }
 
 #section1 a:link, #section1 a:visited {
@@ -143,3 +153,22 @@ footer {
     background-color: rgb(25, 25, 25, 0.75);
 }
 
+#section2 {
+    background-color: rgba(73, 69, 145, 0.75) !important;
+    color: #f5f5f5;
+    border: #eeb699 2px solid;
+    border-radius: 25px !important;
+}
+
+#section2 .card {
+    background-color: #eeb699 !important;
+    color: #191919 !important;
+    border: 2px solid #191919 !important;
+    border-radius: 25px !important;
+    min-height: 550px !important;
+}
+
+#section2 .card-img {
+    height: 75px !important;
+    width: 75px !important;
+}
