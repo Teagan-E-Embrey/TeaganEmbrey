@@ -1,7 +1,58 @@
 main {
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+header {
     background-color: #191919 !important;
+}
+
+.navbar {
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-size: larger !important;
 }
 
 a:link, a:visited {
     color: #beb5ea !important;
+}
+
+a:hover, a:active {
+    color: #f5f5f5 !important;
+    text-decoration: underline !important;
+}
+
+body {
+    background: linear-gradient(to bottom right, #c77b5e 30%, #eebbaa 65%, #c77b5e) !important;
+    background-attachment: fixed !important;
+}
+
+footer {
+    background-color: #191919 !important;
+    color: #f5f5f5 !important;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.card {
+    background-color: #beb5ea !important;
+    border: 2px solid #191919 !important;
+    border-radius: 25px !important;
+    height: 600px !important;
+}
+
+.card img {
+    border-radius: 25px;
+}
+
+.card a:link, .card a:visited {
+    color: #191919 !important;
+    text-decoration: none !important;
+}
+
+.card a:hover, .card a:active {
+    background-color: #c77b5e !important;
+    color: #191919 !important;
+    text-decoration: underline !important;
 }
