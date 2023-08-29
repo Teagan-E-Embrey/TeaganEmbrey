@@ -63,7 +63,7 @@ footer {
 }
 
 .scrollable-section {
-    max-height: 400px; /* Adjust the desired maximum height */
+    min-height: 250px; /* Adjust the desired minimum height */
     overflow-y: auto;
     border: 1px solid #ccc;
 }
@@ -95,8 +95,8 @@ footer {
 }
 
 .section-dot {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: #eeb699;
     border-radius: 50%;
     margin: 0 5px;
@@ -137,3 +137,9 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+.spacer {
+    height: 20px;
+    background-color: rgb(25, 25, 25, 0.75);
+}
+
