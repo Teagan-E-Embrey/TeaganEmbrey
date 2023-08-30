@@ -50,7 +50,7 @@ footer {
 .card {
     background-color: #beb5ea !important;
     border-radius: 25px !important;
-    height: 600px !important;
+    height: auto;
     border: none;
 }
 
@@ -195,8 +195,6 @@ footer {
     background-color: #eeb699 !important;
     color: #191919 !important;
     border: none;
-    border-radius: 25px !important;
-    min-height: 550px !important;
 }
 
 #section2 .card-img {
