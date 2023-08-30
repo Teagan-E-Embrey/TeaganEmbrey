@@ -154,6 +154,7 @@ footer {
     margin-bottom: 1% !important;
     border: none;
     border-radius: 25px !important;
+    font-size: larger;
 }
 
 #section1 a:link, #section1 a:visited {
