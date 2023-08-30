@@ -201,3 +201,13 @@ footer {
     height: 75px !important;
     width: 75px !important;
 }
+
+#name-img {
+    color: #f5f5f5;
+}
+
+#name-img, #intro {
+    color: #f5f5f5;
+    max-width: 75% !important;
+    margin: 0 auto !important;
+}
