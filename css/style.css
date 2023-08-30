@@ -69,13 +69,13 @@ footer {
     text-decoration: underline !important;
 }
 
-#home {
+#home, #about {
     position: relative; /* Make the container relative to position overlay */
     background-image: url("../imgs/CopperCB.jpg") !important;
     background-size: cover !important;
 }
 
-#home::before {
+#home::before, #about::before {
     content: "";
     position: absolute;
     top: 0;
