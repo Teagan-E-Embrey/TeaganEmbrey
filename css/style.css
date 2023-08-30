@@ -4,6 +4,7 @@ main {
 
 header {
     background-color: #191919 !important;
+    padding: 20px;
 }
 
 .navbar {
@@ -48,9 +49,9 @@ footer {
 
 .card {
     background-color: #beb5ea !important;
-    border: 2px solid #191919 !important;
     border-radius: 25px !important;
     height: 600px !important;
+    border: none;
 }
 
 .card img {
@@ -115,8 +116,12 @@ footer {
 }
 
 .section-dot {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 10px;
+    color: #191919;
     background-color: #eeb699;
     border-radius: 50%;
     cursor: pointer;
@@ -125,13 +130,17 @@ footer {
 
 .section-dot.active {
     background-color: #191919;
+    color: #eeb699;
 }
 
 
 #section1 {
     background-color: rgba(73, 69, 145, 0.75) !important;
     color: #f5f5f5;
-    border: #eeb699 2px solid;
+    max-width: 75% !important;
+    margin: 0 auto !important;
+    margin-top: 5% !important;
+    border: none;
     border-radius: 25px !important;
 }
 
@@ -159,22 +168,20 @@ footer {
     height: 30px;
 }
 
-.spacer {
-    height: 20px;
-    background-color: rgb(25, 25, 25, 0.75);
-}
-
 #section2 {
     background-color: rgba(73, 69, 145, 0.75) !important;
     color: #f5f5f5;
-    border: #eeb699 2px solid;
+    max-width: 75% !important;
+    margin: 0 auto !important;
+    margin-top: 5% !important;
+    border: none;
     border-radius: 25px !important;
 }
 
 #section2 .card {
     background-color: #eeb699 !important;
     color: #191919 !important;
-    border: 2px solid #191919 !important;
+    border: none;
     border-radius: 25px !important;
     min-height: 550px !important;
 }

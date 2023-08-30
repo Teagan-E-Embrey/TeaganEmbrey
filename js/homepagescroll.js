@@ -42,7 +42,5 @@ document.addEventListener("DOMContentLoaded", function () {
         showSection(currentSectionIndex);
     }
 
-    setInterval(rotateSections, 5000); // Rotate every 10 seconds
-
     showSection(currentSectionIndex);
 });
