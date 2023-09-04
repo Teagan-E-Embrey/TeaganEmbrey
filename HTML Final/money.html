@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/money.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--<p>This page is currently under construction. Please return <a href="index.html">home</a></p>-->
+
+    <header>
+        <img src="imgs/Logo3-01.png" alt="Teagan's Logo" class="logo" height="10" width="10">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="animals.html" id="meet-them">Meet The Animals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-money">
+            <h2>Money Donations</h2>
+            <p>Money Donations help us in many ways if you aren't sure how you want to contribute. With money donations,
+                we are able to pay vet bills for animals that have been injured, buy specific items for the animals, and
+                build more enclosures and maintain the ones we have.</p>
+            <p>Money donations are crucial, especially for animals that get hurt, or develop medical issues. For
+                example, <a href="https://shywolfsanctuary.org/Animals/tewa/">Tewa</a> is likely going to have long term
+                concerns related to injuries he sustained as pup.</p>
+            <p>Money donations will help us with any current and future issues and health concerns he may run into, as
+                well as any of the other animals may run into. We appreciate all donations.</p>
+            <p>To donate money now, select from the options below.</p>
+        </div>
+
+        <div class="form">
+            <form action="http://ctec.clark.edu/CTEC122/scripts/form_echo.php">
+                <input type="button" value="$1">
+                <input type="button" value="$5">
+                <input type="button" value="$10">
+                <input type="button" value="$15">
+                <input type="button" value="$20">
+                <input type="button" value="$25">
+                <input type="button" value="$50">
+                <input type="button" value="$100">
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="http://ctec.clark.edu/CTEC122/scripts/form_echo.php">
+                <label for="custom-dollar">Donate Custom Amount -</label>
+                <input type="number" name="custom-dollar" id="custom-dollar" min="1" max="500">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>&copy;Teags Wolf & Fox Funds 2022</footer>
+</body>
+
+</html>

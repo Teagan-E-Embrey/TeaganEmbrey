@@ -1,0 +1,320 @@
+/* General Styles, All Pages */
+
+body {
+    background-color: #495b45;
+    color: #edebed;
+    margin: 5%;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 5%;
+    background-color: #2c2e26;
+    border-style: solid;
+    border: #2c2e26;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+nav {
+    float: right;
+}
+
+footer {
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 35px;
+    padding-top: 17.5px;
+    background-color: #2c2e26;
+    text-align: center;
+}
+
+header ul {
+    padding-top: 15px;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding-right: 25px;
+}
+
+img.logo {
+    height: 5em;
+    width: 5em;
+    padding-left: 1%;
+}
+
+.hero {
+    display: block;
+    position: sticky;
+    background: linear-gradient(rgb(44, 46, 38, 0.75), rgb(44, 46, 38, 0.75)), url("../imgs/Shy\ Wolf\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height: 550px;
+    border-style: solid;
+    border-color: #2c2e26;
+    border-width: 5px;
+}
+
+
+.hero h1,
+h2 {
+    text-align: center;
+    color: #dbb77f !important;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    font-size: 35px;
+}
+
+.donate {
+    height: 125px;
+    background-color: #495b45;
+    border-style: solid;
+    border-width: 5px;
+    border-top-width: 0px !important;
+    border-color: #2c2e26;
+    text-align: center;
+    color: #c66e26;
+}
+
+.donate p {
+    font-size: 25px;
+}
+
+.hero p {
+    font-weight: normal;
+    color: #dbb77f;
+    font-size: 2em;
+    text-align: justify;
+    padding-top: .75em;
+}
+
+.meet-the-animals {
+    height: 850px;
+    border-style: solid;
+    border-color: #2c2e26;
+    border-width: 5px;
+    justify-content: center;
+    color: #edebed;
+}
+
+#part2 {
+    background-color: #2c2e26 !important;
+    height: 850px !important;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding-left: 4.1%;
+    padding-right: 4.1%;
+}
+
+article#apollo,
+article#bob-leo,
+article#jasper,
+article#anja,
+article#mikey,
+article#honey {
+    line-height: 30px;
+    text-align: justify;
+}
+
+article#apollo img,
+article#bob-leo img,
+article#jasper img,
+article#anja img,
+article#mikey img,
+article#honey img {
+    height: 300px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #dbb77f;
+}
+
+a:visited {
+    color: #c66e26;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #c66e26;
+    text-decoration: underline;
+}
+
+a:link#meet-them {
+    border-width: 1px;
+    background-color: #495b45;
+    color: #edebed;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+a:visited#meet-them {
+    border-width: 1px;
+    background-color: #495b45;
+    color: #edebed;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+/*992px to 1200px*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hero {
+        height: 400px;
+    }
+
+    .hero h1,
+    h2 {
+        text-align: center;
+        color: #dbb77f !important;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 25px;
+    }
+
+    .donate {
+        height: 125px;
+        background-color: #495b45;
+        border-style: solid;
+        border-width: 5px;
+        border-top-width: 0px !important;
+        border-color: #2c2e26;
+        text-align: center;
+        color: #c66e26;
+    }
+
+    .donate p {
+        font-size: 23px;
+    }
+}
+
+/*768px to 991px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero {
+        height: 350px;
+    }
+
+    .hero h1,
+    h2 {
+        text-align: center;
+        color: #dbb77f !important;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        font-size: 25px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .donate {
+        height: 125px;
+        background-color: #495b45;
+        border-style: solid;
+        border-width: 5px;
+        border-top-width: 0px !important;
+        border-color: #2c2e26;
+        text-align: center;
+        color: #c66e26;
+    }
+
+    .donate p {
+        font-size: 21px;
+    }
+}
+
+/*601px to 767px*/
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .hero {
+        height: 350px;
+    }
+
+    .hero h1,
+    h2 {
+        text-align: center;
+        color: #dbb77f !important;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        font-size: 25px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .donate {
+        height: 125px;
+        background-color: #495b45;
+        border-style: solid;
+        border-width: 5px;
+        border-top-width: 0px !important;
+        border-color: #2c2e26;
+        text-align: center;
+        color: #c66e26;
+    }
+
+    .donate p {
+        font-size: 18px;
+    }
+}
+
+/*under 600px*/
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        height: 400px;
+    }
+
+    .hero h1,
+    h2 {
+        text-align: center;
+        color: #dbb77f !important;
+        font-size: 25px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .donate {
+        height: 125px;
+        background-color: #495b45;
+        border-style: solid;
+        border-width: 5px;
+        border-top-width: 0px !important;
+        border-color: #2c2e26;
+        text-align: center;
+        color: #c66e26;
+    }
+
+    .donate p {
+        font-size: 18px;
+    }
+
+    nav {
+        font-size: .75em;
+    }
+}

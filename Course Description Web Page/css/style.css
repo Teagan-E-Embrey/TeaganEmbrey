@@ -1,0 +1,177 @@
+/* assignment 9 Fall 2022 - style.css */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    width: 1024px;
+    margin: 30px auto;
+    background: #ffffff;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 5px double #ffffff;
+    background: rgb(62, 0, 128);
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    width: 600px;
+    float: left;
+}
+
+main h2 {
+    color: #333333;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+aside {
+    width: 344px;
+    float: right;
+    padding: 20px;
+}
+
+aside h2 {
+    color: rgb(194, 6, 122);
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    background: #dadada;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.logo {
+    float: left;
+    margin: 25px;
+}
+
+.asidelist {
+    list-style-type: circle;
+}
+
+.bruce {
+    box-shadow: 4px 4px 4px #dadada;
+}
+
+dt {
+    font-weight: bold;
+    margin: 1em;
+}
+
+a:link,
+a:visited,
+a:focus,
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+
+    header {
+        width: 800px;
+        text-align: center;
+    }
+    
+    main h2 {
+        color: rebeccapurple;
+    }
+
+    main dt {
+        color: rebeccapurple;
+    }
+
+    main ul {
+        list-style: georgian;
+    }
+
+    aside {
+        clear: both;
+        float: left;
+    }
+
+    aside, main {
+        width: 800px;
+    }
+
+    aside h2{
+        color: #A59600;
+    }
+    
+    .asidelist {
+        color: #000000;
+    }
+
+    aside a:link, aside ul {
+        list-style: circle;
+        color:#A59600;
+    }
+
+    aside a:link {
+        font-weight: bold;
+    }
+
+    aside a:hover {
+        color: #000000;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+
+    header {
+        width: 500px;
+        text-align: center;
+    }
+
+    aside {
+        clear: both;
+        float: left;
+    }
+
+    aside, main {
+        width: 500px;
+        color: darkgreen;
+    }
+
+    main h2 {
+        color: darkgreen;
+    }
+
+    main ul {
+        list-style: lower-latin;
+    }
+
+    main dt {
+        color: seagreen;
+    }
+
+    aside h2, aside strong {
+        color: darkgreen;
+    }
+
+    .asidelist {
+        color: #000000;
+    }
+
+    aside ul, aside a:link {
+        color: seagreen;
+    }
+
+    aside a:hover {
+        color: #000000 !important;
+    }
+}

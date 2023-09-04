@@ -1,0 +1,175 @@
+/*992px to 1200px*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .meet-the-animals {
+        height: 950px;
+        border-style: solid;
+        border-color: #2c2e26;
+        border-width: 5px;
+        justify-content: center;
+        color: #edebed;
+    }
+
+    #part2 {
+        background-color: #2c2e26 !important;
+        height: 950px !important;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding-left: 4.1%;
+        padding-right: 4.1%;
+    }
+
+    article#apollo,
+    article#bob-leo,
+    article#jasper,
+    article#anja,
+    article#mikey,
+    article#honey {
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    article#apollo img,
+    article#bob-leo img,
+    article#jasper img,
+    article#anja img,
+    article#mikey img,
+    article#honey img {
+        height: 250px;
+    }
+}
+
+/*768px to 991px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .meet-the-animals {
+        height: 1000px;
+        border-style: solid;
+        border-color: #2c2e26;
+        border-width: 5px;
+        justify-content: center;
+        color: #edebed;
+    }
+
+    #part2 {
+        background-color: #2c2e26 !important;
+        height: 1000px !important;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding-left: 4.1%;
+        padding-right: 4.1%;
+    }
+
+    article#apollo,
+    article#bob-leo,
+    article#jasper,
+    article#anja,
+    article#mikey,
+    article#honey {
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    article#apollo img,
+    article#bob-leo img,
+    article#jasper img,
+    article#anja img,
+    article#mikey img,
+    article#honey img {
+        height: 200px;
+    }
+}
+
+/*601px to 767px*/
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .meet-the-animals {
+        height: 1000px;
+        border-style: solid;
+        border-color: #2c2e26;
+        border-width: 5px;
+        justify-content: center;
+        color: #edebed;
+    }
+
+    #part2 {
+        background-color: #2c2e26 !important;
+        height: 1150px !important;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding-left: 4.1%;
+        padding-right: 4.1%;
+    }
+
+    article#apollo,
+    article#bob-leo,
+    article#jasper,
+    article#anja,
+    article#mikey,
+    article#honey {
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    article#apollo img,
+    article#bob-leo img,
+    article#jasper img,
+    article#anja img,
+    article#mikey img,
+    article#honey img {
+        height: 100px;
+    }
+}
+
+/*under 600px*/
+
+@media only screen and (max-width: 600px) {
+    .meet-the-animals {
+        height: 950px;
+        border-style: solid;
+        border-color: #2c2e26;
+        border-width: 5px;
+        justify-content: center;
+        color: #edebed;
+    }
+
+    #part2 {
+        background-color: #2c2e26 !important;
+        height: 1050px !important;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding-left: 4.1%;
+        padding-right: 4.1%;
+    }
+
+    article#apollo,
+    article#bob-leo,
+    article#jasper,
+    article#anja,
+    article#mikey,
+    article#honey {
+        line-height: 22px;
+        text-align: justify;
+    }
+
+    article#apollo img,
+    article#bob-leo img,
+    article#jasper img,
+    article#anja img,
+    article#mikey img,
+    article#honey img {
+        height: 75px;
+    }
+}
