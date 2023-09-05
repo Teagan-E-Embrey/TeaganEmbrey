@@ -279,7 +279,7 @@ footer {
 }
 
 .navbar-toggler-icon {
-    color: #eeb699;
+    color: #eeb699 !important;
 
 #port {
     background-color: #2a2a2a;
