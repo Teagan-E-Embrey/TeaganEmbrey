@@ -15,6 +15,10 @@ header {
     font-size: larger !important;
 }
 
+.navbar-nav {
+    color: #eeb699;
+}
+
 a:link, a:visited {
     color: #beb5ea !important;
 }
@@ -277,9 +281,6 @@ footer {
     opacity: 1;
     color: #eeb699 !important;
 }
-
-.navbar-toggler-icon {
-    color: #eeb699 !important;
 
 #port {
     background-color: #2a2a2a;
