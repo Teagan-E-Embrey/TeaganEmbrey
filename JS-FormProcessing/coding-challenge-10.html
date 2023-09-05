@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <title>Project 2</title>
+</head>
+
+<body class="bg-dark">
+    <!-- header with bootstrap dark background, text centered, white text -->
+    <div class="container-fluid">
+        <div class="row bg-secondary-subtle text-center text-black">
+            <div class="col">
+                <h1>Form Processing with JavaScript</h1>
+            </div>
+        </div>
+    </div>
+    <!-- form with bootstrap and form control -->
+    <main class="bg-dark">
+        <div class="container-fluid mt-5 col-5 bg-secondary-subtle text-black p-3">
+            <form id="order" name="oder" action="http://ctec.clark.edu/~belgort/formprocessing/processform.php"
+                method="POST">
+                <!-- first name field max length 20 characters -->
+                <div class="form-group">
+                    <div mb-2>
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" id="firstName" name="firstName" class="form-control" maxlength="20">
+                    </div>
+                    <!-- last name field with max len 20 -->
+                    <div class="mb-2">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" class="form-control" maxlength="20">
+                    </div>
+                    <!-- Address field, max len 40 -->
+                    <div class="mb-2">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" id="address" name="address" class="form-control" maxlength="40">
+                    </div>
+                    <!-- City field, max len 30 -->
+                    <div class="mb-2">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" id="city" name="city" class="form-control" maxlength="30">
+                    </div>
+                    <!-- State field, max len 2 and 5 options -->
+                    <div class="mb-2">
+                        <label for="state" class="form-label">State</label>
+                        <select id="state" name="state" class="form-control" required>
+                            <option value="">--SELECT STATE--</option>
+                            <option value="WA">WA</option>
+                            <option value="OR">OR</option>
+                            <option value="CA">CA</option>
+                            <option value="ID">ID</option>
+                            <option value="NV">NV</option>
+                        </select>
+                    </div>
+                    <!-- Product field with 5 options -->
+                    <div class="mb-2">
+                        <label for="product" class="form-label">Product</label>
+                        <select id="product" name="product" class="form-control" required>
+                            <option value="">--Select a Product--</option>
+                            <option value="Rocking Horse">Rocking Horse</option>
+                            <option value="iPhone 14 Pro">iPhone 14 Pro</option>
+                            <option value="Coffee1">Dark Roast Coffee 1lb</option>
+                            <option value="Coffee2">Light Roast Coffee 1lb</option>
+                            <option value="Pizza">Slice Pizza</option>
+                        </select>
+                    </div>
+                    <!-- Quantity field with min 1 and max 5 -->
+                    <div class="mb-2">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" max="5"
+                            required>
+                    </div>
+                    <!-- Radio button with yes and no options, Can we contact you by phone? -->
+                    <label for="contact" class="form-label">Can we contact you by phone?</label><br>
+                    <input type="radio" name="yes" id="yes-no" value="yes"><label for="yes"
+                        class="form-label">Yes</label><br>
+                    <input type="radio" name="no" id="yes-no" value="no"><label for="no" class="form-label">No</label>
+                </div>
+                <!-- Terms and Conditions checkbox "I Accept" -->
+                <div class="mb-2">
+                    <label for="terms" class="form-label">Terms and Conditions Apply, please review and click "I
+                        Accept". <a href="">Terms
+                            &
+                            Conditions</a></label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms" class="form-label">I Accept</label>
+                </div>
+                <!-- Submit button -->
+                <input type="submit" id="submit" value="Submit" class="btn btn-dark">
+        </div>
+        </form>
+        </div>
+    </main>
+    <!-- footer with bootstrap dark background, text centered, white text -->
+    <footer>
+        <div class="container-fluid sticky-bottom mt-5">
+            <div class="row bg-secondary-subtle text-center text-black">
+                <div class="col">
+                    <p>Copywright by &copy; Teagan Embrey, 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>
