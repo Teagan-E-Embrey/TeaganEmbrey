@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT API</title>
+    <link rel="stylesheet" href="css/nyt.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/nyt.js"></script>
+</head>
+
+<body>
+    <!-- create header using bootstrap -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1>New York Times API</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- create main using bootstrap -->
+    <main class="container-fluid">
+        <h2>Please Select A News Category</h2>
+        <!-- create button menu for: Home, Arts, Business, Dining, Fashion, Health Magazine, National Opinion, Politics, Real Estate, Science, Sports, Technology, World -->
+        <div class="row" id="nav">
+            <div class="col-12">
+                <nav>
+                    <ul>
+                        <li><button id="home">Home</button></li>
+                        <li><button id="arts">Arts</button></li>
+                        <li><button id="business">Business</button></li>
+                        <li><button id="dining">Dining</button></li>
+                        <li><button id="fashion">Fashion</button></li>
+                        <li><button id="health">Health Magazine</button></li>
+                        <li><button id="opinion">National Opinion</button></li>
+                        <li><button id="politics">Politics</button></li>
+                        <li><button id="realestate">Real Estate</button></li>
+                        <li><button id="science">Science</button></li>
+                        <li><button id="sports">Sports</button></li>
+                        <li><button id="technology">Technology</button></li>
+                        <li><button id="world">World</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- create section for articles -->
+        <section class="row justify-content-evenly" id="articles">
+        </section>
+    </main>
+</body>
+
+<!-- footer using bootstrap sticky bottom -->
+<footer class="container-fluid fixed-bottom">
+    <div class="row">
+        <div class="col-12">
+            <p>&copy; by Teagan Embrey, 2023</p>
+        </div>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,78 @@
+header {
+    background-color: #02160e;
+    color: #fff;
+    text-align: center;
+    height: 75px;
+    padding-top: 10px;
+}
+
+body {
+    background-color: #03281C !important;
+    color: #fff !important;
+}
+
+h2 {
+    text-align: center;
+}
+
+#nav {
+    background-color: #02160e;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #02160e;
+    color: #fff;
+    padding-top: 12px;
+}
+
+button {
+    background-color: #BCD9CF;
+    color: #000;
+    border: solid 1px #02160e;
+    border-radius: 100px !important;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.card {
+    background-color: #BCD9CF;
+    color: #000;
+    border: solid 1px #02160e;
+    border-radius: px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#articles div {
+    background-color: #BCD9CF;
+}
+
+h5 {
+    text-align: center;
+    color: #02160e;
+}
+
+.btn {
+    background-color: #03281C !important;
+    color: #fff !important;
+    border: solid 1px #02160e;
+    border-radius: 100px !important;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+footer {
+    background-color: #02160e;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
