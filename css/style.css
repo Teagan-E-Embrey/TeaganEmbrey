@@ -278,6 +278,9 @@ footer {
     color: #eeb699 !important;
 }
 
+.navbar-toggler-icon {
+    color: #eeb699;
+
 #port {
     background-color: #2a2a2a;
     border-radius: 50px;
