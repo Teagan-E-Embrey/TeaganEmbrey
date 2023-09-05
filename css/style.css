@@ -69,13 +69,13 @@ footer {
     text-decoration: underline !important;
 }
 
-#home, #about, #portfolio {
+#home, #about, #portfolio, #drawings {
     position: relative; /* Make the container relative to position overlay */
     background-image: url("../imgs/CopperCB.jpg") !important;
     background-size: cover !important;
 }
 
-#home::before, #about::before, #portfolio::before {
+#home::before, #about::before, #portfolio::before, #drawings::before {
     content: "";
     position: absolute;
     top: 0;
@@ -211,4 +211,69 @@ footer {
     margin-top: 5% !important;
     margin-bottom: 1% !important;
     border: none;
+}
+
+#portfolio img {
+    max-width: 100%;
+}
+
+.assignment-link {
+    display: block;
+    text-decoration: none;
+    color: transparent;
+}
+
+.assignment-link:hover {
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: #eeb699 !important; 
+}
+
+        
+.assignment-link img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.col-md-6 {
+    position: relative;
+    overflow: hidden;
+}
+
+        
+.assignment-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    padding: 25px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 25, 25, 0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.col-md-6:hover .assignment-link {
+    color: #eeb699 !important;
+}
+
+.col-md-6:hover .assignment-link img {
+    opacity: 0.95;
+}
+
+.col-md-6:hover .overlay {
+    opacity: 1;
+    color: #eeb699 !important;
 }
