@@ -7,6 +7,10 @@ header {
     padding: 20px;
 }
 
+.navbar-toggler-icon {
+    color: #eeb699 !important;
+}
+
 .navbar {
     font-size: larger;
 }
@@ -160,7 +164,7 @@ footer {
 .homebtn {
     display: inline-block !important;
     position: relative !important;
-    font-weight: 500 !important;
+    /* font-weight: 500 !important; */
     padding: 40px 25px !important;
 }
 
