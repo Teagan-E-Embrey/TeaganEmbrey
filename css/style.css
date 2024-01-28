@@ -8,7 +8,7 @@ header {
 }
 
 .navbar-toggler-icon {
-    color: #eeb699 !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(199, 123, 94, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .navbar {
@@ -17,14 +17,6 @@ header {
 
 .navbar-brand {
     font-size: larger !important;
-}
-
-.navbar-collapse {
-    color: #eeb699;
-}
-
-.navbar-toggler-icon {
-    color: #eeb699 !important;
 }
 
 a:link, a:visited {
