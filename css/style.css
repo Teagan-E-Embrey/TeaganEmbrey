@@ -19,6 +19,10 @@ header {
     color: #eeb699;
 }
 
+.navbar-toggler-icon {
+    color: #eeb699 !important;
+}
+
 a:link, a:visited {
     color: #beb5ea !important;
 }
