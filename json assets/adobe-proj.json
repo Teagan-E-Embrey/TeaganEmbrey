@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Line Drawings",
+        "img": "../imgs/assignment_imgs/linedrawings/achillesdrawing.png",
+        "program": "Illustrator"
+    },
+
+    {
+        "title": "DreamScape",
+        "img": "../imgs/assignment_imgs/DreamScape.jpg",
+        "program": "PhotoShop"
+    },
+
+    {
+        "title": "Four Part Portrait",
+        "img": "../imgs/assignment_imgs/4PartPortrait.jpg",
+        "program": "PhotoShop"
+    },
+
+    {
+        "title": "Shapes",
+        "img": "..imgs/assignment_imgs/ParrotofShapes.png",
+        "program": "Illustrator"
+    }
+]

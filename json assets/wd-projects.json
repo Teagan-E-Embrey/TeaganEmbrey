@@ -1,0 +1,26 @@
+[
+    {
+        "title": "CSS Styling Practice Assignment",
+        "imgs": "../imgs/assignment_imgs/css-styling.png"
+    },
+
+    {
+        "title": "HTML Course Description",
+        "imgs": "../imgs/assignment_imgs/html-fundamentals.png"
+    },
+
+    {
+        "title": "JS Form Processing",
+        "imgs": "../imgs/assignment_imgs/js-forms.png"
+    },
+
+    {
+        "title": "HTML Fundamentals Final Project",
+        "imgs": "../imgs/assignment_imgs/html-final.png"
+    },
+
+    {
+        "title": "New York Times API",
+        "imgs": "../imgs/assignment_imgs/NYT-API.png"
+    }
+]
