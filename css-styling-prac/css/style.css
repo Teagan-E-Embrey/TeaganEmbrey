@@ -1,0 +1,126 @@
+/* Assignment 8 style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Xanh+Mono&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+  width: 1024px;
+  padding: 0;
+  margin: 0 auto;
+  color: #000000;
+  background-color: lavender;
+}
+
+header {
+  border-style: solid;
+  height: 125px;
+  padding: 5px;
+  color: #000000;
+  border-radius: 10px;
+}
+
+header h1 {
+  text-align: right;
+}
+
+nav.nav {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  border-style: solid;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 10px 5px 5px 0px lavenderblush;
+  font-weight: bold;
+  background-color: lavenderblush;
+  border-radius: 10px;
+}
+
+a:link, a:hover, a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+  background-color: lavenderblush;
+}
+
+aside {
+  float: left;
+  width: 322px;
+  padding: 10px;
+}
+
+aside h3 {
+  text-align: center;
+  margin-left: 45px;
+}
+
+aside ul.categories {
+  list-style: none;
+  text-align: center;
+}
+
+ul.categories li {
+  border-style: solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px 0px lavenderblush;
+  background-color: lavenderblush;
+}
+
+.links {
+  text-align: left;
+}
+
+ul.links {
+  list-style: none;
+}
+
+ul.links li {
+  padding-top: 5px;
+}
+
+main {
+  width: 662px;
+  padding: 10px;
+  float: right;
+}
+
+figure {
+  float: right;
+  word-wrap: break-word;
+}
+
+figcaption {
+  font-size: x-small;
+}
+
+footer {
+  clear: both;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 10px;
+}
+
+footer nav {
+  padding-top: 15px;
+}
+
+footer p {
+  padding-top: 15px;
+  text-align: center;
+}
