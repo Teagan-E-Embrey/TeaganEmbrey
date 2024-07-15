@@ -20,8 +20,8 @@ a:link, a:visited {
 }
 
 body {
-    background-color: #03281C !important;
-    color: #fff !important;
+    background-color: #191919 !important;
+    color: #191919 !important;
 }
 
 h2 {
@@ -29,8 +29,8 @@ h2 {
 }
 
  #nav {
-    background-color: #02160e;
-    color: #fff;
+    background-color: #191919;
+    color: #c77b5e;
     text-align: center;
     height: 50px;
 }
@@ -41,22 +41,22 @@ nav ul {
     width: 100%;
     justify-content: space-around;
     text-align: center;
-    background-color: #02160e;
-    color: #fff;
+    background-color: #191919;
+    color: #c77b5e;
     padding-top: 12px;
 }
 
 button {
-    background-color: #BCD9CF;
-    color: #000;
-    border: solid 1px #02160e;
+    background-color: #c77b5e;
+    color: #191919;
+    border: solid 1px #191919;
     border-radius: 100px !important;
     font-size: 1.2em;
     padding: 0 10px;
 }
 
 .card {
-    background-color: #BCD9CF;
+    background-color: #beb5ea;
     color: #000;
     border: solid 1px #02160e;
     border-radius: px;
@@ -65,26 +65,26 @@ button {
 }
 
 #articles div {
-    background-color: #BCD9CF;
+    background-color: #c77b5e;
 }
 
 h5 {
     text-align: center;
-    color: #02160e;
+    color: #beb5ea;
 }
 
 .btn {
-    background-color: #03281C !important;
-    color: #fff !important;
-    border: solid 1px #02160e;
+    background-color: #191919 !important;
+    color: #c77b5e !important;
+    border: solid 1px #191919;
     border-radius: 100px !important;
     font-size: 1.2em;
     padding: 0 10px;
 }
 
 footer {
-    background-color: #02160e;
-    color: #fff;
+    background-color: #191919;
+    color: #c77b5e;
     text-align: center;
     height: 50px;
     padding-top: 10px;
