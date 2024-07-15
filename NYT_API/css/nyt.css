@@ -1,13 +1,13 @@
 header {
-    background-color: #02160e;
-    color: #fff;
+    background-color: #191919;
+    color: #c77b5e;
     text-align: center;
     height: 75px;
     padding-top: 10px;
 }
 
 a:link, a:visited {
-    color: #02160e;
+    color: #191919;
     text-decoration: none;
 }
 
@@ -19,10 +19,6 @@ a:link, a:visited {
     font-size: larger;
 }
 
-.navbar-toggler {
-    color: #fff !important;
-}
-
 body {
     background-color: #03281C !important;
     color: #fff !important;
@@ -32,7 +28,7 @@ h2 {
     text-align: center;
 }
 
-#nav {
+ #nav {
     background-color: #02160e;
     color: #fff;
     text-align: center;

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/nyt.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script defer src="js/nyt.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+-->
 </head>
 
 <body>
@@ -25,7 +29,35 @@
 
     <!-- create main using bootstrap -->
     <main class="container-fluid">
-            <h2>Please Select A News Category</h2>
+        <h2>News Category</h2>
+        <!-- This was Attempt 2 to create a dropdown menu for the Categories 
+         <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button" id="home">Home</button>
+                <button class="dropdown-item" type="button" id="arts">Arts</button>
+            </div>
+        </div> -->
+
+
+        <!-- This was Attempt 1 to create a dropdown menu for the Categories 
+         <div class="navigation">
+            <nav class="navbar navbar-expand-lg">
+                <a href="" class="navbar-brand">Categories</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <button class="nav-item" id="home">Home</button>
+                        <button class="nav-item" id="arts">Arts</button>
+                    </div>
+                </div>
+            </nav>
+        </div> -->
         <!-- create button menu for: Home, Arts, Business, Dining, Fashion, Health Magazine, National Opinion, Politics, Real Estate, Science, Sports, Technology, World -->
         <div class="row" id="nav">
             <div class="col-12">
